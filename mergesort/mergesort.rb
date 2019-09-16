@@ -20,7 +20,3 @@ def merge(left, right)
 		[right.first] + merge(left, right[1..right.length])
 	end
 end
-
-arr = [9,12,5,1,4,6,29,5,1,6,78,1,12,4]
-
-p merge_sort(arr)
